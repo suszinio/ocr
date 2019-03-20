@@ -1,0 +1,9 @@
+.idea/*
+.idea/**
+env/*
+env/**
+env2/*
+env2/**
+venv/*
+venv/**
+
