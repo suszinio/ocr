@@ -10,7 +10,7 @@ hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
 # ladowanie zdjecia
-imPath = 'C:\\Users\\rb34187\\Documents\\detector\\example_03.png'
+imPath = 'C:\\Users\\xxxxxxx\\Documents\\detector\\example_03.png'
 image = cv2.imread(imPath)
 image = imutils.resize(image,width=min(1200, image.shape[1]))
 orig = image.copy()
